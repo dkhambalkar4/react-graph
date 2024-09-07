@@ -1,0 +1,73 @@
+/* Main Card Container: Fluid Layout */
+.main-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #2c3e50 50%, #f8f9fa 50%);
+    padding: 20px;
+  }
+  
+  /* Main Card: Wrapping both left and right cards */
+  .main-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    /* width: 100%; */
+    max-width: 1200px; /* Adjust the max-width as needed */
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  /* Left Card: Chart */
+  .chart-card {
+    flex: 3;
+    background-color: #e7e3e38a;
+    padding: 20px;
+  }
+  
+  /* Right Card: Information */
+  .info-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .summary-item {
+    text-align: center;
+    border: 1px solid #e9e2e2;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .items{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+  }
+  
+  .summary-item h3 {
+    font-size: 36px;
+    margin-bottom: 5px;
+  }
+  
+  .summary-item h4 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .summary-item p {
+    color: #7f8c8d;
+  }
+  
+  .card-header h2 {
+    font-size: 24px;
+    color: #2c3e50;
+  }
+  
+  .card-header p {
+    color: #7f8c8d;
+  }
+  

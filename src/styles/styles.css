@@ -1,0 +1,10 @@
+.top-button{
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    gap: 2px;
+}   
+
+.trashbutton{
+    width: auto !important;
+}
